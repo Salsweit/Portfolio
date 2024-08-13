@@ -118,6 +118,7 @@ body {
     text-transform: uppercase;
     font-size: 31px;
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .portfolio-content {
@@ -139,10 +140,37 @@ body {
     height: 335px;
 }
 
+footer {
+    display: flex;
+    position: relative;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+    background-color: #2C3333;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5rem;
+    margin-top: 20px;
+}
+
+.footer-contact img {
+    height: 55px;
+    width: 55px;
+}
+
+.footer-contact a{
+    cursor: pointer;
+}
+
 
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
